@@ -1,5 +1,4 @@
-#include <SoftwareSerial.h>//incluimos SoftwareSerial
-#include <TinyGPS.h>//incluimos TinyGPS
+
 
 TinyGPS gps;//Declaramos el objeto gps
 SoftwareSerial serialgps(4,3);//Declaramos el pin 4 Tx y 3 Rx
